@@ -21,19 +21,11 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="r43-UB-Msq">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="r43-UB-Msq" id="v0m-YU-3Ei">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomCell" id="x0N-R8-V1l" customClass="CustomCell" customModule="TravelVista" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="93.666667938232422" width="393" height="59"/>
+                                        <rect key="frame" x="0.0" y="50" width="393" height="59.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="x0N-R8-V1l" id="bHS-0D-i27">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="59"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="59.333332061767578"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vietnam" translatesAutoresizingMaskIntoConstraints="NO" id="iHs-6J-9UW">
@@ -84,7 +76,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrV-st-wKH">
-                                                    <rect key="frame" x="311" y="19" width="22" height="21"/>
+                                                    <rect key="frame" x="311" y="19" width="22" height="21.333333333333329"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="22" id="ySF-Et-bY7"/>
                                                     </constraints>
@@ -107,8 +99,10 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="countryImage" destination="iHs-6J-9UW" id="QQQ-O9-CAY"/>
-                                            <outlet property="countryName" destination="qMe-lV-PNW" id="IyI-aa-RrH"/>
+                                            <outlet property="capitalLabel" destination="O0X-30-0Aw" id="tSI-Pz-66X"/>
+                                            <outlet property="countryImageView" destination="iHs-6J-9UW" id="AsF-Ay-i9M"/>
+                                            <outlet property="countryNameLabel" destination="qMe-lV-PNW" id="WI5-OW-Yqc"/>
+                                            <outlet property="rateLabel" destination="mrV-st-wKH" id="eTW-cf-jmD"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
