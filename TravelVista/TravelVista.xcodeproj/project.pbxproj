@@ -50,10 +50,8 @@
 		424C31BE2B30956400279238 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				424C31BC2B30955E00279238 /* DetailViewController.swift */,
-				42B90C162B2A055B00779364 /* ListViewController.swift */,
-				424C31BA2B30919400279238 /* CustomCell.swift */,
-				424C31BF2B30A39B00279238 /* MapViewController.swift */,
+				C6A2A31D2DFCDDFF00C99903 /* UIKit */,
+				C6A2A31B2DFCDDDD00C99903 /* SwiftUI */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,6 +94,24 @@
 				42B90C202B2A056000779364 /* Info.plist */,
 			);
 			path = TravelVista;
+			sourceTree = "<group>";
+		};
+		C6A2A31B2DFCDDDD00C99903 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		C6A2A31D2DFCDDFF00C99903 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				42B90C162B2A055B00779364 /* ListViewController.swift */,
+				424C31BC2B30955E00279238 /* DetailViewController.swift */,
+				424C31BA2B30919400279238 /* CustomCell.swift */,
+				424C31BF2B30A39B00279238 /* MapViewController.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
