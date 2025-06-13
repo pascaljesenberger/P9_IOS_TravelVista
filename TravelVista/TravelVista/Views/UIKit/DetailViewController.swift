@@ -30,7 +30,8 @@ class DetailViewController: UIViewController, MKMapViewDelegate {
         if let country = self.country {
             self.setUpData(country: country)
             
-            let hostingController = UIHostingController(rootView: TitleViewSwiftUI())
+            let hostingController = UIHostingController(rootView: TitleViewSwiftUI(country: country.name, capital: country.capital, rate: country.rate))
+            
             
             self.addChild(hostingController)
             self.view.addSubview(hostingController.view)
@@ -41,6 +42,8 @@ class DetailViewController: UIViewController, MKMapViewDelegate {
             hostingController.view.rightAnchor.constraint(equalTo: self.view.rightAnchor).isActive = true
             hostingController.view.topAnchor.constraint(equalTo: self.imageView.bottomAnchor).isActive = true
             hostingController.view.heightAnchor.constraint(equalToConstant: 65).isActive = true
+            
+            self.titleView.isHidden = true
         }
     }
     
